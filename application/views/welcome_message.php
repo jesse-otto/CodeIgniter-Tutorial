@@ -1,41 +1,109 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-/**
- * test_view
- * 
- * Goes inside the template
- * 
- * @license		http://www.apache.org/licenses/LICENSE-2.0  Apache License 2.0
- * @author		Mike Funk
- * @link		http://mikefunk.com
- * @email		mike@mikefunk.com
- * 
- * @file		test_view.php
- * @version		1.0
- * @date		02/08/2012
- * 
- * Copyright (c) 2012
- */
-?>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jesse Otto</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+body {
+  /*background: linear-gradient(90deg, white, grey);*/
+  background-color: #42f486;
+}
 
-<div class="container">
-<div class="page-header">
-<h1>Welcome to CodeIgniter!</h1>
-</div><!--page-header-->
-<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
+header, h1, p {
+  font-family: "Helvetica Neue", "Segoe UI", Segoe, Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 
-		<p>If you would like to edit this page you'll find it located at:</p>
-		<p><code>application/views/welcome_message.php</code></p>
 
-		<p>The corresponding controller for this page is found at:</p>
-		<p><code>application/controllers/welcome.php</code></p>
+.container {
+  margin-left:  auto;
+  margin-right:  auto;
+  margin-top: 30px;
+  max-width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="http://codeigniter.com/user_guide">User Guide</a>.</p>
-		
-		<hr />
-		<p>Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT == 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?>
-</p>
-</div><!--container-->
+h1 {
+  font-size: 48px;
+  font-weight: 300;
+  margin: 0 0 20px 0;
+}
 
-<?php
-/* End of file test_view.php */
-/* Location: ./base_codeigniter_app/application/views/test_view.php */
+
+p {
+  font-size: 26px;
+  font-weight: 100;
+  margin: 0 0 10px 0;
+}
+ul {
+    list-style-type: none;
+    margin: 5px 0px;
+    padding: 30px 30px;
+	width: 125px;
+    background-color: #4afc41;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 20px 30px;
+	margin:  20px -25px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #42f4ce;
+    color: #01a021;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container text-center" id="error">
+
+ 
+  <div class="row">
+    <div class="col-md-12">
+      
+      <h1>My Website</h1>
+      <p> These are the webistes I have made </p>
+	  <p>The links are not yet set</p>
+    </div>
+  </div>
+
+</div>
+</header>
+
+<ul>
+  <li><a href="default.asp">Resume</a></li>
+ 
+ 
+  <li><a href="news.asp">Contact</a></li>
+  
+  
+  <li><a href="www.jesse-otto.com/blog/">jesse-otto.com</a></li>
+ 
+  
+  <li><a href="www.youtube.com">N/A</a></li>
+
+  
+</ul>
+
+
+<aside>
+
+</aside>
+
+
+
+</body>
+</html>
